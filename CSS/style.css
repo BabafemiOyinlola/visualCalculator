@@ -1,0 +1,30 @@
+.calculator{
+	position: fixed;
+    top: 25%;
+    left: 40%;
+    background-color: black;
+}
+
+input{
+	font-size: 20px;
+	padding: 15px;
+}
+
+#clr{
+	padding-bottom: 12px;
+}
+#first{
+	padding-bottom: 12px;
+}
+#second{
+	padding-bottom: 12px;
+}
+#third{
+	padding-bottom: 12px;
+}
+#fourth{
+	padding-bottom: 12px;
+}
+#keypad{
+ 	font-weight: 10px;
+}

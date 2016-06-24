@@ -1,0 +1,48 @@
+<! DOCTYPE <html>
+<head>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<script type="text/javascript" src="JS/script2.js"></script>
+	<title>Visual Calculator</title>
+</head>
+<body class="calculator">
+	<div>
+		<div id="textbox">
+			<form>
+					<input type="text" name="values" id="screen" disabled>
+			</form>
+		</div>
+		<div id="keypad">
+			<form>
+				<div id="clr">
+					<input type="button" value='C' onClick="clearLastEntry();"  id="num">
+					<input type="button" value='CE' onClick="clearEntry();"  id="num"><br>
+				</div>
+				<div id="first">
+					<input type="button" value='7' onClick="printValue(this.value);"  id="num">
+					<input type="button" value='8' onClick="printValue(this.value);"  id="num">
+					<input type="button" value='9' onClick="printValue(this.value);"  id="num">
+					<input type="button" value='/' onClick="calculate(this.value);"   id="divide"><br>
+				</div>
+				<div id="second">
+					<input type="button" value='4' onClick="printValue(this.value);"  id="num">
+					<input type="button" value='5' onClick="printValue(this.value);"  id="num">
+					<input type="button" value='6' onClick="printValue(this.value);"  id="num">
+					<input type="button" value='*' onClick="calculate(this.value);"   id="multiply"><br>
+				</div>				
+				<div id="third">
+					<input type="button" value='1' onClick="printValue(this.value);"  id="num">
+					<input type="button" value='2' onClick="printValue(this.value);"  id="num">
+					<input type="button" value='3' onClick="printValue(this.value);"  id="num">
+					<input type="button" value='-' onClick="calculate(this.value);"   		  id="subtract" ><br>
+				</div>
+				<div id="fourth">
+					<input type="button" value='0' onClick="printValue(this.value);"  id="num">
+					<input type="button" value='.' onClick="printValue(this.value);" id="equalto">
+					<input type="button" value='=' onClick="display(this.value);"  id="num">
+					<input type="button" value='+' onClick="calculate(this.value);"  id="add"><br>
+				</div>					
+			</form>
+		</div>
+	</div>
+</body>
+</html>
